@@ -23,9 +23,9 @@ public class MyController {
 	        return "index"; // This should match your view name
 	    }
 	 
-	 @RequestMapping(value = "/slotBook", method = RequestMethod.GET)
-	    public String slotBook() {
-	        // Your logic here
-	        return "slotBook"; // This should match your view name
-	    }
+	 // @RequestMapping(value = "/slotBook", method = RequestMethod.GET)
+	 //    public String slotBook() {
+	 //        // Your logic here
+	 //        return "slotBook"; // This should match your view name
+	 //    }
 }
